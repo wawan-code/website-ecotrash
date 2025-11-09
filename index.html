@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Trash | Solusi Cerdas Pengelolaan Sampah Digital</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h1>E-Trash</h1>
+    <ul>
+      <li><a href="#beranda">Home</a></li>
+      <li><a href="#fitur">Fitur</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#manfaat">Manfaat</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+      
+    </ul>
+    <a href="#daftar" class="nav-cta">Daftar</a>
+  </nav>
+
+  <div class="spacer"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="beranda">
+    <h2>Solusi Cerdas Pengelolaan Sampah Digital</h2>
+    <p>Bersama E-Trash, wujudkan lingkungan bersih melalui sistem pintar, reward menarik, dan edukasi daur ulang!</p>
+    <button>Mulai Sekarang</button>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang">
+    <h2>Tentang E-Trash</h2>
+    <p>
+      E-Trash adalah platform digital yang membantu masyarakat dalam memilah dan mendaur ulang sampah 
+      dengan sistem pintar berbasis QR Code, reward, dan edukasi lingkungan.
+    </p>
+
+    <div class="visi-misi">
+      <div class="visi">
+        <h3>Visi</h3>
+        <p>
+          Menjadi solusi digital terdepan dalam pengelolaan sampah berkelanjutan untuk mewujudkan lingkungan 
+          yang bersih, hijau, dan sadar ekologi.
+        </p>
+      </div>
+      <div class="misi">
+        <h3>Misi</h3>
+        <ul>
+          <li>Meningkatkan partisipasi masyarakat dalam pemilahan dan daur ulang sampah.</li>
+          <li>Mendorong kebiasaan ramah lingkungan melalui sistem poin dan penghargaan.</li>
+          <li>Menyediakan edukasi interaktif tentang pentingnya pengelolaan sampah berkelanjutan.</li>
+          <li>Mendukung program pemerintah dalam pengurangan sampah dan peningkatan daur ulang nasional.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FITUR -->
+  <section class="features" id="fitur">
+    <h2>Fitur Utama</h2>
+    <div class="features-grid">
+      <div class="feature-item">
+        <h3>Smart Bin & QR Code</h3>
+        <p>Mendeteksi dan mencatat aktivitas pembuangan sampah otomatis.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Reward Poin</h3>
+        <p>Dapatkan poin setiap kali kamu memilah sampah dengan benar.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Pelaporan Sampah</h3>
+        <p>Laporkan sampah liar langsung dari aplikasi.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Edukasi Daur Ulang</h3>
+        <p>Belajar cara memilah dan mendaur ulang sampah dengan benar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANFAAT -->
+  <section class="benefits" id="manfaat">
+    <h2>Manfaat Menggunakan E-Trash</h2>
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        <h3>Lingkungan Lebih Bersih</h3>
+        <p>Membantu mengurangi sampah liar dan menjaga kebersihan sekitar.</p>
+      </div>
+      <div class="benefit-item">
+        <h3>Dapat Poin & Hadiah</h3>
+        <p>Setiap aksi memilah sampah bernilai dan bisa ditukar hadiah menarik.</p>
+      </div>
+      <div class="benefit-item">
+        <h3>Edukasi Berkelanjutan</h3>
+        <p>Menumbuhkan kesadaran masyarakat melalui materi dan pelatihan daur ulang.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONI -->
+  <section class="testimonials">
+    <h2>Apa Kata Pengguna?</h2>
+    <div class="testimonial">
+      “E-Trash membuat saya lebih peduli terhadap kebersihan lingkungan.” — <strong>Ayu</strong> ⭐⭐⭐⭐⭐
+    </div>
+    <div class="testimonial">
+      “Fitur reward-nya sangat memotivasi untuk rajin memilah sampah.” — <strong>Rizal</strong> ⭐⭐⭐⭐☆
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section class="form-section" id="daftar">
+    <h2>Gabung Sekarang</h2>
+    <p>Isi data kamu untuk mulai berkontribusi menjaga bumi 🌍</p>
+    <form>
+      <input type="text" placeholder="Nama Lengkap" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">Daftar Sekarang</button>
+    </form>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <p>Email: info@etrash.com | Telepon: +62 8xx xxxx xxxx</p>
+    <p>Alamat: Jl. Hijau Bersih No.123, Jakarta</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>©️ 2025 E-Trash. Semua Hak Dilindungi.</p>
+    <p>
+      <a href="#">Kebijakan Privasi</a> |
+      <a href="#">Syarat & Ketentuan</a>
+    </p>
+  </footer>
+
+  <!-- SMOOTH SCROLL -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
